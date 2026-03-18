@@ -23,6 +23,6 @@ function distancia(combustivel) {
   const desempenho = 12; // 12 Kms por litro
   return combustivel * desempenho;
 }
-console.log("Carro 1: 20L -> Percorre", distancia(20), "Kms.");
-console.log("Carro 2: 8L -> Percorre", distancia(8), "Kms.");
-console.log("Carro 3: 2L -> Percorre", distancia(2), "Kms.");
+console.log("Carro 1: 20L -> Percorre", distancia(20), "Km.");
+console.log("Carro 2: 8L -> Percorre", distancia(8), "Km.");
+console.log("Carro 3: 2L -> Percorre", distancia(2), "Km.");
